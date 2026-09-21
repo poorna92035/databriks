@@ -8,6 +8,6 @@ terraform {
 }
 
 provider "databricks" {
-  host  = var.databricks_host
-  token = var.databricks_token
+  host  = "https://dbc-d9021e0b-caad.cloud.databricks.com/"
+  token = "aeb908ae979a699755ad819dcfb141dd0bee941e55486865d2f7a4d1fd7d9622"
 }
